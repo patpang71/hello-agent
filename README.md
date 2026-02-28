@@ -8,12 +8,14 @@ Make sure you have Python installed. Then install the required dependencies:
 
 ```bash
 pip install streamlit pandas
+python3 -m pip install --upgrade langchain openai
+python3 -m pip install langchain-openai
 ```
 
 ## Running the App
 
 ```bash
-streamlit run hello-agent.py
+python3 -m streamlit run hello-agent.py
 ```
 
 The app will open automatically in your browser at `http://localhost:8501`.
