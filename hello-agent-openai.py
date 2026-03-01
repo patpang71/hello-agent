@@ -15,7 +15,7 @@ if not API_KEY:
     st.stop()
 
 def ask_agent(dfs: list[pd.DataFrame], prompt: str) -> str:
-    llm = ChatOpenAI(openai_api_key=API_KEY, model="gpt-4o-mini", temperature=0.0)
+    llm = ChatOpenAI(openai_api_key=API_KEY, model="gpt-4o", temperature=0.0)
     agent = create_pandas_dataframe_agent(
         llm,
         dfs,
