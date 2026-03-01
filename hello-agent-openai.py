@@ -42,7 +42,7 @@ if st.button("Run"):
             try:
                 df = pd.read_csv(path)
                 st.subheader(path)
-                st.write(df)
+                st.write(df.head())  # Show only the first few rows for brevity
                 dfs.append(df)
             except Exception as e:
                 st.error(f"Error reading '{path}': {e}")
