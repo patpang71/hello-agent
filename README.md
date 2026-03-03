@@ -22,7 +22,7 @@ The app will open automatically in your browser at `http://localhost:8501`.
 
 ## Usage
 
-1. **File Path** — Enter the full path to a CSV file (e.g. `/Users/you/data.csv`)
+1. **File Path** — Enter the full path to a CSV file (e.g. `/Users/kaitaipang/Documents/InterviewKickstart/00_Hello_Agent/Datasets/credit_card_terms.csv,/Users/kaitaipang/Documents/InterviewKickstart/00_Hello_Agent/Datasets/hospital_policy.csv,/Users/kaitaipang/Documents/InterviewKickstart/00_Hello_Agent/Datasets/ecommerce_faqs.csv,/Users/kaitaipang/Documents/InterviewKickstart/00_Hello_Agent/Datasets/saas_docs.csv`)
 2. **Prompt** — Enter any text prompt
 
 The app will display the CSV as a table and echo back your prompt.
