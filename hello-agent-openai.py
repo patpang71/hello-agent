@@ -33,6 +33,8 @@ file_paths_input = st.text_input(
 )
 prompt = st.text_input("Enter a prompt", key="prompt")
 
+# The new version will have 2 buttons: one for 
+
 # Inputs are only processed when this button is pressed
 if st.button("Run"):
     dfs = []
